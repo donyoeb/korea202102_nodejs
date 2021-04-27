@@ -14,7 +14,7 @@ var server = http.createServer(function(request, response){
     tag+="<td>banana</td>";
     tag+="</tr>";
     tag+="</table>";
-
+    
     response.end(tag);//웹브라우저가 해석할 수있는 데이터로 보내면 됨..
 });
 
